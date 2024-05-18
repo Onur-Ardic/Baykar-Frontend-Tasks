@@ -71,13 +71,11 @@ $color-accent-5: #036a91;
       object-fit: cover;
     }
 
-    &:nth-child(1) {
-      &::after {
-        @include circle(130px, $color-accent-1);
-        bottom: 0%;
-        left: 190%;
-        z-index: 0;
-      }
+    &:nth-child(1)::after {
+      @include circle(130px, $color-accent-1);
+      bottom: 0%;
+      left: 190%;
+      z-index: 0;
     }
 
     &:nth-child(2) {
@@ -183,6 +181,7 @@ $color-accent-5: #036a91;
       width: 300px;
       border-radius: 50px;
     }
+
     &::after {
       content: '';
       position: absolute;
@@ -200,9 +199,14 @@ $color-accent-5: #036a91;
 
 .grow-your-collection {
   .grow-your-wrapper {
+    .grow-your-left {
+      .grow-list {
+        line-height: 80px;
+      }
+    }
     .grow-your-right {
       .grow-your-img-wrapper {
-        .img-content {
+        .img-content:first-child {
           @include box-shadow(rgba(255, 255, 255, 0.66), 0px, 5px, 15px, -3px);
           background-color: #f1f1f1;
 
@@ -223,7 +227,55 @@ $color-accent-5: #036a91;
           }
 
           .img {
-            width: 100% !important;
+            width: 100%;
+          }
+        }
+      }
+
+      .img-content-1 {
+        top: 100px;
+        left: 100px;
+        z-index: 4;
+        background-color: #f1f1f1;
+
+        span {
+          &:nth-child(1) {
+            @include circle-why(red);
+          }
+          &:nth-child(2) {
+            @include circle-why(yellow);
+          }
+          &:nth-child(3) {
+            @include circle-why(green);
+          }
+        }
+      }
+
+      .img-content-2 {
+        top: 300px;
+        left: 42rem;
+        z-index: 5;
+        background-color: #f1f1f1;
+
+        span {
+          &:nth-child(1) {
+            @include circle-why(red);
+          }
+          &:nth-child(2) {
+            @include circle-why(yellow);
+          }
+          &:nth-child(3) {
+            @include circle-why(green);
+          }
+        }
+
+        .btn-content {
+          width: 100%;
+        }
+
+        .img {
+          img {
+            width: 300px;
           }
         }
       }

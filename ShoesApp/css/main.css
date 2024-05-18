@@ -15849,16 +15849,19 @@ textarea.form-control-lg {
   z-index: 1;
 }
 
-.grow-your-collection .grow-your-wrapper .grow-your-right .grow-your-img-wrapper .img-content {
+.grow-your-collection .grow-your-wrapper .grow-your-left .grow-list {
+  line-height: 80px;
+}
+.grow-your-collection .grow-your-wrapper .grow-your-right .grow-your-img-wrapper .img-content:first-child {
   box-shadow: 0px 5px 15px -3px rgba(255, 255, 255, 0.66);
   -webkit-box-shadow: 0px 5px 15px -3px rgba(255, 255, 255, 0.66);
   -moz-box-shadow: 0px 5px 15px -3px rgba(255, 255, 255, 0.66);
   background-color: #f1f1f1;
 }
-.grow-your-collection .grow-your-wrapper .grow-your-right .grow-your-img-wrapper .img-content .btn-content {
+.grow-your-collection .grow-your-wrapper .grow-your-right .grow-your-img-wrapper .img-content:first-child .btn-content {
   width: 100%;
 }
-.grow-your-collection .grow-your-wrapper .grow-your-right .grow-your-img-wrapper .img-content span:nth-child(1) {
+.grow-your-collection .grow-your-wrapper .grow-your-right .grow-your-img-wrapper .img-content:first-child span:nth-child(1) {
   width: 10px;
   height: 10px;
   background-color: red;
@@ -15866,7 +15869,7 @@ textarea.form-control-lg {
   content: "";
   display: block;
 }
-.grow-your-collection .grow-your-wrapper .grow-your-right .grow-your-img-wrapper .img-content span:nth-child(2) {
+.grow-your-collection .grow-your-wrapper .grow-your-right .grow-your-img-wrapper .img-content:first-child span:nth-child(2) {
   width: 10px;
   height: 10px;
   background-color: yellow;
@@ -15874,7 +15877,7 @@ textarea.form-control-lg {
   content: "";
   display: block;
 }
-.grow-your-collection .grow-your-wrapper .grow-your-right .grow-your-img-wrapper .img-content span:nth-child(3) {
+.grow-your-collection .grow-your-wrapper .grow-your-right .grow-your-img-wrapper .img-content:first-child span:nth-child(3) {
   width: 10px;
   height: 10px;
   background-color: green;
@@ -15882,8 +15885,74 @@ textarea.form-control-lg {
   content: "";
   display: block;
 }
-.grow-your-collection .grow-your-wrapper .grow-your-right .grow-your-img-wrapper .img-content .img {
-  width: 100% !important;
+.grow-your-collection .grow-your-wrapper .grow-your-right .grow-your-img-wrapper .img-content:first-child .img {
+  width: 100%;
+}
+.grow-your-collection .grow-your-wrapper .grow-your-right .img-content-1 {
+  top: 100px;
+  left: 100px;
+  z-index: 4;
+  background-color: #f1f1f1;
+}
+.grow-your-collection .grow-your-wrapper .grow-your-right .img-content-1 span:nth-child(1) {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50px;
+  content: "";
+  display: block;
+}
+.grow-your-collection .grow-your-wrapper .grow-your-right .img-content-1 span:nth-child(2) {
+  width: 10px;
+  height: 10px;
+  background-color: yellow;
+  border-radius: 50px;
+  content: "";
+  display: block;
+}
+.grow-your-collection .grow-your-wrapper .grow-your-right .img-content-1 span:nth-child(3) {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50px;
+  content: "";
+  display: block;
+}
+.grow-your-collection .grow-your-wrapper .grow-your-right .img-content-2 {
+  top: 300px;
+  left: 42rem;
+  z-index: 5;
+  background-color: #f1f1f1;
+}
+.grow-your-collection .grow-your-wrapper .grow-your-right .img-content-2 span:nth-child(1) {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50px;
+  content: "";
+  display: block;
+}
+.grow-your-collection .grow-your-wrapper .grow-your-right .img-content-2 span:nth-child(2) {
+  width: 10px;
+  height: 10px;
+  background-color: yellow;
+  border-radius: 50px;
+  content: "";
+  display: block;
+}
+.grow-your-collection .grow-your-wrapper .grow-your-right .img-content-2 span:nth-child(3) {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50px;
+  content: "";
+  display: block;
+}
+.grow-your-collection .grow-your-wrapper .grow-your-right .img-content-2 .btn-content {
+  width: 100%;
+}
+.grow-your-collection .grow-your-wrapper .grow-your-right .img-content-2 .img img {
+  width: 300px;
 }
 
 /*# sourceMappingURL=main.css.map */
