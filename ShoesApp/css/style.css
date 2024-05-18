@@ -1,0 +1,260 @@
+.header .hero .hero-wrapper .hero-right::after {
+  width: 320px;
+  height: 320px;
+  background-color: #fbbf23;
+  border-radius: 50px;
+  content: "";
+  position: absolute;
+  display: block;
+  top: 30%;
+  right: 10%;
+  z-index: 0;
+}
+.header .hero .hero-wrapper .hero-right .shoe-img {
+  width: 500px !important;
+}
+.header .hero .hero-wrapper .hero-bottom::after {
+  width: 300%;
+  height: 300%;
+  background-color: #f3f3c7;
+  border-radius: 50px;
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -80%;
+  right: -50%;
+  height: 100%;
+  transform: rotate(-18deg);
+}
+
+.best-of-card-wrapper .card {
+  box-shadow: 0px 5px 15px -3px rgba(255, 255, 255, 0.66);
+  -webkit-box-shadow: 0px 5px 15px -3px rgba(255, 255, 255, 0.66);
+  -moz-box-shadow: 0px 5px 15px -3px rgba(255, 255, 255, 0.66);
+  width: 380px !important;
+}
+.best-of-card-wrapper .card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+.best-of-card-wrapper .card:nth-child(1)::after {
+  width: 130px;
+  height: 130px;
+  background-color: #b45309;
+  border-radius: 50px;
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 0%;
+  left: 190%;
+  z-index: 0;
+}
+.best-of-card-wrapper .card:nth-child(2)::after {
+  width: 232px;
+  height: 232px;
+  background-color: #15803d;
+  border-radius: 50px;
+  content: "";
+  position: absolute;
+  display: block;
+  top: 10%;
+  right: -130%;
+  z-index: 0;
+}
+.best-of-card-wrapper .card:nth-child(2)::before {
+  width: 202px;
+  height: 202px;
+  background-color: #a21caf;
+  border-radius: 50px;
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -7%;
+  right: -95%;
+  z-index: 0;
+}
+.best-of-card-wrapper::after {
+  width: 271px;
+  height: 271px;
+  background-color: #941c53;
+  border-radius: 50px;
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 12%;
+  left: -2%;
+  z-index: -1;
+}
+.best-of-card-wrapper::before {
+  width: 161px;
+  height: 161px;
+  background-color: #036a91;
+  border-radius: 50px;
+  content: "";
+  position: absolute;
+  display: block;
+  top: -7%;
+  left: 33%;
+  z-index: -1;
+}
+
+.why-join-us .why-join-wrapper .why-join-right .img-content {
+  box-shadow: 0px 5px 15px -3px rgba(255, 255, 255, 0.66);
+  -webkit-box-shadow: 0px 5px 15px -3px rgba(255, 255, 255, 0.66);
+  -moz-box-shadow: 0px 5px 15px -3px rgba(255, 255, 255, 0.66);
+  background-color: #f1f1f1;
+}
+.why-join-us .why-join-wrapper .why-join-right .img-content span:nth-child(1) {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50px;
+  content: "";
+  display: block;
+}
+.why-join-us .why-join-wrapper .why-join-right .img-content span:nth-child(1)::after {
+  width: 500px;
+  height: 500px;
+  background-color: #fde68b;
+  border-radius: 50px;
+  content: "";
+  position: absolute;
+  display: block;
+  top: 163%;
+  height: 200px;
+  left: 10%;
+  border-radius: 0;
+  transform: rotate(-45deg);
+}
+.why-join-us .why-join-wrapper .why-join-right .img-content span:nth-child(1)::before {
+  width: 218px;
+  height: 218px;
+  background-color: #be185d;
+  border-radius: 50px;
+  content: "";
+  position: absolute;
+  display: block;
+  top: 12rem;
+  right: -5rem;
+}
+.why-join-us .why-join-wrapper .why-join-right .img-content span:nth-child(2) {
+  width: 10px;
+  height: 10px;
+  background-color: yellow;
+  border-radius: 50px;
+  content: "";
+  display: block;
+}
+.why-join-us .why-join-wrapper .why-join-right .img-content span:nth-child(2)::after {
+  width: 50px;
+  height: 50px;
+  background-color: #0369a1;
+  border-radius: 50px;
+  content: "";
+  position: absolute;
+  display: block;
+  top: -2rem;
+  right: -10px;
+}
+.why-join-us .why-join-wrapper .why-join-right .img-content span:nth-child(2)::before {
+  width: 85px;
+  height: 85px;
+  background-color: #15803d;
+  border-radius: 50px;
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -20rem;
+  right: 16rem;
+  z-index: 3;
+}
+.why-join-us .why-join-wrapper .why-join-right .img-content span:nth-child(3) {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50px;
+  content: "";
+  display: block;
+}
+.why-join-us .why-join-wrapper .why-join-right .img-content span:nth-child(3)::after {
+  width: 50px;
+  height: 50px;
+  background-color: #a21caf;
+  border-radius: 50px;
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -19rem;
+  right: 7rem;
+}
+.why-join-us .why-join-wrapper .why-join-right .img-content span:nth-child(3)::before {
+  width: 90px;
+  height: 90px;
+  background-color: #b45309;
+  border-radius: 50px;
+  content: "";
+  position: absolute;
+  display: block;
+  top: 2rem;
+  right: 27rem;
+  z-index: -1;
+  border-radius: 30px;
+}
+
+.love-they-us .love-they-us-content .card {
+  height: 400px;
+  width: 300px;
+  border-radius: 50px;
+}
+.love-they-us .love-they-us-content::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 28%;
+  left: 15%;
+  margin: 0 auto;
+  width: 1300px;
+  height: 350px;
+  background-color: #fde68a;
+  z-index: 1;
+}
+
+.grow-your-collection .grow-your-wrapper .grow-your-right .grow-your-img-wrapper .img-content {
+  box-shadow: 0px 5px 15px -3px rgba(255, 255, 255, 0.66);
+  -webkit-box-shadow: 0px 5px 15px -3px rgba(255, 255, 255, 0.66);
+  -moz-box-shadow: 0px 5px 15px -3px rgba(255, 255, 255, 0.66);
+  background-color: #f1f1f1;
+}
+.grow-your-collection .grow-your-wrapper .grow-your-right .grow-your-img-wrapper .img-content .btn-content {
+  width: 100%;
+}
+.grow-your-collection .grow-your-wrapper .grow-your-right .grow-your-img-wrapper .img-content span:nth-child(1) {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50px;
+  content: "";
+  display: block;
+}
+.grow-your-collection .grow-your-wrapper .grow-your-right .grow-your-img-wrapper .img-content span:nth-child(2) {
+  width: 10px;
+  height: 10px;
+  background-color: yellow;
+  border-radius: 50px;
+  content: "";
+  display: block;
+}
+.grow-your-collection .grow-your-wrapper .grow-your-right .grow-your-img-wrapper .img-content span:nth-child(3) {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50px;
+  content: "";
+  display: block;
+}
+.grow-your-collection .grow-your-wrapper .grow-your-right .grow-your-img-wrapper .img-content .img {
+  width: 100% !important;
+}
+
+/*# sourceMappingURL=style.css.map */

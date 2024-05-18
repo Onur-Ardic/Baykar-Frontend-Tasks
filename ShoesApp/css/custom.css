@@ -1,0 +1,36 @@
+.bg-first-color {
+  background-color: #fffbec;
+}
+
+.text-brown {
+  color: #783510;
+}
+
+.text-text-black {
+  color: #0e172a;
+}
+
+.bg-color-yellow {
+  background-color: #fbbf23;
+}
+
+.bg-color-thirth {
+  background-color: #0f162a;
+}
+
+.bg-second-color {
+  background-color: #fffcf3;
+}
+
+.border-brown {
+  border-color: #783510;
+  border-width: 1px;
+}
+
+.img-50 {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=custom.css.map */

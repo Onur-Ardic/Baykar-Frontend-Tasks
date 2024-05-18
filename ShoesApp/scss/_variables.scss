@@ -1,0 +1,37 @@
+$custom-spacers: (
+  12: $spacer * 0.75,
+  15: $spacer * 0.94,
+  20: $spacer * 1.25,
+  25: $spacer * 1.56,
+  30: $spacer * 1.875,
+  40: $spacer * 2.5,
+  50: $spacer * 3.125,
+  60: $spacer * 3.75,
+  75: $spacer * 4.7,
+  120: $spacer * 7.5,
+);
+$spacers: map-merge($spacers, $custom-spacers);
+
+$h12-font-size: $font-size-base * 0.75;
+$h14-font-size: $font-size-base * 0.9;
+$h20-font-size: $font-size-base * 1.25;
+$h25-font-size: $font-size-base * 1.56;
+$h36-font-size: $font-size-base * 2.25;
+$h48-font-size: $font-size-base * 3.125;
+$h60-font-size: $font-size-base * 3.75;
+$h72-font-size: $font-size-base * 4.375;
+$h84-font-size: $font-size-base * 5;
+$h96-font-size: $font-size-base * 5.625;
+$custom-sizes: (
+  12: $h12-font-size,
+  14: $h14-font-size,
+  20: $h20-font-size,
+  25: $h25-font-size,
+  36: $h36-font-size,
+  48: $h48-font-size,
+  60: $h60-font-size,
+  72: $h72-font-size,
+  84: $h84-font-size,
+  96: $h96-font-size,
+);
+$font-sizes: map-merge($font-sizes, $custom-sizes);
