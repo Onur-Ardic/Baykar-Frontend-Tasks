@@ -16080,6 +16080,9 @@ textarea.form-control-lg {
     justify-content: center;
     text-align: center;
   }
+  .footer .footer-wrapper .app-store-google-play-icons {
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
