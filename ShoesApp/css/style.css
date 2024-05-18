@@ -325,6 +325,9 @@
   width: 200px !important;
 }
 
+.country .vector-content {
+  background-color: #fefcf3;
+}
 .country .vector-content .vector-1 {
   bottom: 40rem;
   right: -15rem;
