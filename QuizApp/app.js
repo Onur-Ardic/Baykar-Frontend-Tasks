@@ -42,23 +42,13 @@ function renderQuestion() {
   })
 
   timeLeft = 30
-<<<<<<< HEAD
-  canSelect = false
-=======
-  canSelect = false // İlk başta seçim yapılamaz
->>>>>>> 92dc2859daa6f8db285edbcdd730e1664a6e79d7
   updateTimerBar(timeLeft)
-
   clearInterval(countdown)
   countdown = setInterval(() => {
     timeLeft--
     updateTimerBar(timeLeft)
     if (timeLeft === 20) {
-<<<<<<< HEAD
       canSelect = true
-=======
-      canSelect = true // 10 saniye sonra seçim yapılabilir
->>>>>>> 92dc2859daa6f8db285edbcdd730e1664a6e79d7
     }
     if (timeLeft === 0) {
       clearInterval(countdown)
@@ -86,20 +76,12 @@ function saveAnswer() {
 }
 
 function checkAnswer(userAnswer) {
-
-
-
-
   const currentQuestion = questions[currentQuestionIndex]
   const resultElement = document.getElementById('result-body-content')
   const tr = document.createElement('tr')
   const tdQuestion = document.createElement('td')
   const tdUserAnswer = document.createElement('td')
-
   const correctAnswer = 'A'
-
-
-
   if (userAnswer === correctAnswer) {
     score++
   }
@@ -111,7 +93,6 @@ function checkAnswer(userAnswer) {
   tr.appendChild(tdUserAnswer)
 
   resultElement.appendChild(tr)
-
   nextQuestion()
 }
 
