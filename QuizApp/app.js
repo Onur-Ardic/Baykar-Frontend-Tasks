@@ -83,6 +83,7 @@ function checkAnswer(userAnswer) {
   const tr = document.createElement('tr')
   const tdQuestion = document.createElement('td')
   const tdUserAnswer = document.createElement('td')
+  const correctAnswer = 'A'
 
   if (userAnswer === correctAnswer) {
     score++
